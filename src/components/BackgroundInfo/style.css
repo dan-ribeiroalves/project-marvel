@@ -1,0 +1,18 @@
+.background img{
+    opacity: 0;
+}
+.background{ 
+    background-size: cover;
+    background-position: center;
+   
+}
+.background--vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top,black 20%, transparent);
+}
+.background--horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right,rgba(0, 0 , 0 , 0.5), transparent);
+}
