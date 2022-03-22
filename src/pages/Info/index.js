@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import './style.css'
 import {useParams, useHistory} from 'react-router-dom'
-import Marvel from "../../services/MarvelApi/Marvel";
+import Marvel from "../../services/Marvel";
 import BodyInfo from "../../components/BodyInfo";
 import BackgroundInfo from "../../components/BackgroundInfo";
 import Loading from "../../components/Loading";

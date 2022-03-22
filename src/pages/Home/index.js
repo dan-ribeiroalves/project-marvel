@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from "react";
-import Marvel from "../../services/MarvelApi/Marvel";
+import Marvel from "../../services/Marvel";
 import CharactersRow from "../../components/CharactersRow";
 import Background from "../../components/Background";
 import './style.css'

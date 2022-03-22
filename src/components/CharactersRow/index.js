@@ -2,10 +2,7 @@ import React from "react";
 import './style.css'
 import {Link} from 'react-router-dom'
 
-
-
 export default ({title, items}) => {
-
 
     return(    
         <div className="characterRow--item">

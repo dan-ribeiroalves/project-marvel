@@ -6,7 +6,6 @@ const API_KEY_PUBLIC = '3bb64ba8f7f8e2e7744adbcf848f9ff5'
 const API_KEY_PRIVATE = 'f9216bbd1494b8720f801b430745c1e64b0ed1eb'
 const HASH = md5(TIME_STAMP + API_KEY_PRIVATE + API_KEY_PUBLIC)
 
-
 const basicFetch = async (characterID) => {
     const req = await fetch(`${API_BASE}/v1/public/characters/${characterID}?ts=${TIME_STAMP}&apikey=${API_KEY_PUBLIC}&hash=${HASH}`)
     const json = await req.json()

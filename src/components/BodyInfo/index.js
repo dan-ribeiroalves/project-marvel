@@ -25,9 +25,6 @@ export default ({comics ,items}) => {
         setScrollX(x)
     }
     
-console.log(comics)
-
-
     return(
         <div className="info">
             <h1>{items.name}</h1>
